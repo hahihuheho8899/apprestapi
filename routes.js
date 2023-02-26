@@ -25,4 +25,6 @@ module.exports = function(app){
     
     app.route('/tampilmatakuliah')
         .get(jsonku.tampilgroupmatakuliah);
+    
+    
 }
